@@ -1,0 +1,124 @@
+/* ============= RESET CSS ================ */
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: #333;
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #d3d3d3;
+    height: 10vh;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.05rem;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+a:hover {
+    background-color: #e9e7e7;
+    transition: background-color 0.8s;
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+}
+
+.informacoes-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f6;
+    width: 50%;
+    height: 100%;
+}
+
+.informacoes-produto h1 {
+    font-size: 3.3rem;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.informacoes-produto p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.informacoes-produto h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.btns {
+    display: flex;
+}
+
+.btn {
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    font-size: .8rem;
+    padding: 20px;
+    color: #ffffff;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: none;
+}
+
+.btn:hover {
+    transform: translateY(-10%);
+    box-shadow: 0px 5px 10px #888888;
+}
+
+.detalhes-btn {
+    background-color: #a4a4a4;
+}
+
+.carrinho-btn {
+    background-color: #141110;
+}
+
+.rigth {
+    position: relative;
+    background-color: #74d3ff;
+    width: 50%;
+    height: 100%;
+}
+
+.rigth img {
+    position: absolute;
+    left: -80px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    max-width: 940px;
+}
+
+/* ================================== */
